@@ -53,8 +53,8 @@ To run the application locally, follow these steps:
 
 # Example Use Cases
 
-Spam Message: "Congratulations! You've won a free ticket to Bahamas!"
-Not Spam Message: "Hey, do you have any update on the project?"
+-Spam Message: "Congratulations! You've won a free ticket to Bahamas!"
+-Not Spam Message: "Hey, do you have any update on the project?"
 
 # Conclusion
 This project demonstrates how to build a machine learning application for spam classification using Streamlit. You can easily deploy this model to a cloud service or use it for real-time classification.
