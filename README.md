@@ -46,15 +46,15 @@ To run the application locally, follow these steps:
 
 ## How it Works
 
--The app takes a message input (SMS or email) from the user.
--The message is preprocessed (lowercased, tokenized, stop words removed, and stemmed).
--The transformed message is then vectorized using the TF-IDF vectorizer.
--The model predicts whether the message is Spam or Not Spam.
+1. The app takes a message input (SMS or email) from the user.
+2. The message is preprocessed (lowercased, tokenized, stop words removed, and stemmed).
+3. The transformed message is then vectorized using the TF-IDF vectorizer.
+4. The model predicts whether the message is Spam or Not Spam.
 
 ## Example Use Cases
 
--Spam Message: "Congratulations! You've won a free ticket to Bahamas!"
--Not Spam Message: "Hey, do you have any update on the project?"
+1. Spam Message: "Congratulations! You've won a free ticket to Bahamas!"
+2. Not Spam Message: "Hey, do you have any update on the project?"
 
 # Conclusion
 This project demonstrates how to build a machine learning application for spam classification using Streamlit. You can easily deploy this model to a cloud service or use it for real-time classification.
