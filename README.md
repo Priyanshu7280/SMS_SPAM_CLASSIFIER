@@ -6,9 +6,9 @@ This project is an **SMS/Email Spam Classifier** built using machine learning. T
 ## Project Structure
 
 - `app.py`: The Streamlit app for the SMS spam classifier.
-- 'rain_and_save.py': Script to retrain and save the model/vectorizer
-- 'check_pickle.py': A utility script to check the validity of the pickle files (model/vectorizer).
-- 'spam.csv': The dataset for training the model (not required for running the app).
+- `rain_and_save.py`: Script to retrain and save the model/vectorizer
+- `check_pickle.py`: A utility script to check the validity of the pickle files (model/vectorizer).
+- `spam.csv`: The dataset for training the model (not required for running the app).
 - `vectorizer.pkl`: The pre-trained TF-IDF vectorizer.
 - `model.pkl`: The pre-trained machine learning model (e.g., Multinomial Naive Bayes).
 - `requirements.txt`: A list of required Python packages.
@@ -101,6 +101,8 @@ To check the pickle files, run:
 
 ```bash
 python check_pickle.py
+``
+---
 
 ## How it Works
 
